@@ -1,5 +1,6 @@
 ## Aliases
 
+alias bx="bundle exec"
 alias ba="bundle add"
 alias bck="bundle check"
 alias bcn="bundle clean"
