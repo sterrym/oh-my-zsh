@@ -74,9 +74,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# nodenv
-eval "$(nodenv init -)"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -109,3 +106,6 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# nodenv
+eval "$(nodenv init -)"
