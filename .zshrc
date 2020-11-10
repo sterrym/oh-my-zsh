@@ -74,6 +74,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# nodenv
+eval "$(nodenv init -)"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -104,13 +107,5 @@ fi
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
 
-# heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/Users/tim/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
-
-# nodenv
-eval "$(nodenv init -)"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
