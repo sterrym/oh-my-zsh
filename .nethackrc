@@ -5,6 +5,7 @@
 # (without quotes.) To insert text, hit 'i' to enter insert mode.
 
 # Here are some examples of reasonable defaults:
+NAME=player
 
 OPTIONS=role:valkyrie
 OPTIONS=gender:female
